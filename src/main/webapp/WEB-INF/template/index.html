@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" xmlns:th="http://www.thymeleaf.org">
+    <title>Title</title>
+</head>
+<body>
+    hello spring mvc !!!
+    <div th:text="${name}"></div>
+    <div>
+        <form action="upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit">
+        </form>
+        <a href="download" download="test.docx">下载最新资源</a>
+    </div>
+    <script th:src="@{/static/test.js}"></script>
+</body>
+</html>
