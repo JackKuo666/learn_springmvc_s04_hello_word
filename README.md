@@ -55,7 +55,7 @@ maven的.m2/settings.xml文件配置阿里源
 
 - 上传下载文件
 - CSRF跨站请求伪造攻击
-  - 需要先打开服务，然后将CSRF.html地址（`D:\learn\s04spring_mvc\src\main\webapp\WEB-INF\template\CSRF.html`）直接放入浏览器就可以实现了【切记不能再idea中打开，会出现：`http://localhost:8011/mvc/WEB-INF/template/CSRF.html` 不是我们想要的地址】。
+  - 需要先打开服务，然后将CSRF.html地址（`D:\learn\s04spring_mvc\src\main\webapp\WEB-INF\template\CSRF.html`）直接放入浏览器就可以实现了【切记不能在idea中打开，会出现：`http://localhost:8011/mvc/WEB-INF/template/CSRF.html` 不是我们想要的地址】。
 
 ### 参考：
 
